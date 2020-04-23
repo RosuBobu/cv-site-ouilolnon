@@ -56,40 +56,28 @@ $(document).ready(function(){
         step=step+50;
     });
 
-    // ACCORDEON
-    function getClickable(){
-        let acWrapDivs = document.querySelectorAll('.accordionWrapper > div');
-        for(let i =0; i<acWrapDivs.length; i++){
-            acWrapDivs[i].addEventListener('click', changeClass);
+    //ACCORDION !!
+    $('.accordionItem.close').click(function(){
+
+        if($('.accordionItem').not(this).hasClass('open')){
+            $('.accordionItem').addClass('close');
+            $('.accordionItem').removeClass('open');
+
+            $(this).toggleClass('open');
+            $(this).toggleClass('close');
+
+        } else {
+            $(this).toggleClass('open');
+            $(this).toggleClass('close');
         }
-    }
-    function changeClass(){
-        if (this.className == "accordionItem open"){
-            this.className = "accordionItem close";    
-        }else{
-            this.className = "accordionItem open";        
-        }
-    }
-    function customAccordion(){
-        //accordionItem : div
-        let accordionItem = document.createElement('div');
-        accordionItem.className = 'accordionItem close';
-        accordionWrapper.appendChild(accordionItem);
-        //accordionItem : content h2
-        let h2 = document.createElement('h2');
-        h2.className = 'accordionItemHeading';
-        accordionItem.appendChild(h2);
-        h2.innerText = title;
-        //accordionItem : content div and p
-        let divP = document.createElement('div');
-        accordionItem.appendChild(divP);
-        divP.className = 'accordionItemContent';
-        divP.innerHTML = '<p>'+content+'</p>';
-        //getting clickables properties
-        getClickable();
-    }
-    getClickable();
-    //draggable
+    });   
+
+    //PLACARELECTRIK
+    $('#electric').click(function(){
+        $('#placarelectrik').css('pointer-events','all');
+        $('#placarelectrik').css('visibility','visible');
+    });
+    //DRAGGABLE
     $( function(){
         $(".draggable").draggable();
     });
