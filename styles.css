@@ -69,15 +69,9 @@ body{
     height: 60px;
     font-family: 'Carter One', cursive;
 }
-.navbar-brand{
-    cursor: none;
-}
-.navbar a{
-    color: navy
-}
-.navbar a:hover{
-    color: khaki;
-}
+.navbar-brand{cursor: none;}
+.navbar a{color: navy}
+.navbar a:hover{color: khaki;}
 .dropdown-item{
     color: navy !important;
     text-align:center !important;
@@ -102,7 +96,6 @@ body{
     height: calc(100% - 70px);
     width: 60px;
 }
-
 .left-tab{
     height: 50px;
     width: 100%;
@@ -114,13 +107,10 @@ body{
     width: 350px;
     background-color: cyan;
 }
-.left-tab:hover .left-tab-bar{
-    box-shadow: 2px 0px 2px white;
-}
+.left-tab:hover .left-tab-bar{box-shadow: 2px 0px 2px white;}
 .left-tab:hover .left-tab-bar p, .left-tab:hover .left-tab-bar h5{
     opacity: 1;
     color: #860010;
-
 }
 .left-tab img{
     margin-top: 2px;
@@ -165,11 +155,7 @@ body{
     color: cyan;
 }
 /* ----- DRAGGABLE ----- */
-
-.draggable{
-    cursor: move;
-}
-
+.draggable{cursor: move;}
 /* ----- ACCORDEON CUSTOM ----- */
 .accordionWrapper {
     background: linear-gradient(90deg, #ff6739, #ff1d74, #1dc3ff, #23d5ab);
@@ -206,11 +192,9 @@ body{
     font-family: 'Carter One', cursive;
     text-align: center;
 }
-
 .accordionItemHeading:hover .youpla{
     animation: youpla 1s 0s linear infinite ;
 }
-
 .close .accordionItemContent {
     height: 0px;
     transition: height 1s ease-out;
@@ -232,7 +216,6 @@ body{
     text-align: center;
     font-family: 'Baloo Paaji 2', cursive;
 }
-
 .open .accordionItemHeading {
     margin: 0px;
     border: 3px 3px 0px 0px;
@@ -240,15 +223,9 @@ body{
     /* background-color: #67080b; */
     color: #ce0018;
 }
-#dreams img{
-    max-height: 75px;
-}
-#dreams img:hover{
-    filter: drop-shadow(0px 0px 3px #ce0018);
-}
-
+#dreams img{max-height: 75px;}
+#dreams img:hover{filter: drop-shadow(0px 0px 3px #ce0018);}
 /* ----- PLACARELECTRIK ----- */
-
 #placarelectrik{
     z-index: 1000;
     pointer-events: none;
@@ -261,7 +238,6 @@ body{
     background-color: rgba(0, 0, 128, 0.8);
     border-radius: 5px;
     border: 2px solid goldenrod;
-
     background-position: top;
     background-size: cover;
 }
@@ -273,9 +249,7 @@ body{
     background-position: top;
     background-size: cover;
 }
-
 /* ----- TOOLTIP ----- */
-
 #wtf span, #disclaimer span{	
 	display:none;
 	color:#fff;
@@ -286,14 +260,11 @@ body{
 	position: absolute;
 	z-index:10;
 }
-#wtf, #disclaimer { 
-	display: inline-block;
-}
+#wtf, #disclaimer{display: inline-block;}
 
 #wtf:hover span , #disclaimer:hover span{  
 	display:block; 
 }
-
 /* ----- FLYER !!! ----- */
 #gogopher{
     height: 400px;
