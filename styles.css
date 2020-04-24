@@ -30,12 +30,19 @@
     66% { color: #00ffe1; text-decoration: underline overline double #ce0018;}
     100% { color: #ce0018; text-decoration: underline overline double #00ffe1;};
 }
+@keyframes border-color {
+    0% { border: 1px solid #00ffe1;}
+    33% { border: 3px solid #ff001e;}
+    66% { border: 1px solid #00ffe1;}
+    100% { border: 3px solid #ff001e;};
+}
 /* ----- GEN ----- */
 
 .navGradientRed{
-    background: linear-gradient(45deg, #ce0018, #850612, #ce0018, #850612, #ce0018);
+    background: linear-gradient(45deg,#e2001a,#ce0018, #850612, #770511);
+    /* background: linear-gradient(45deg,#e2001a,#850612, #ce0018, #770511, #ce0018, #850612, #ce0018,#770511,#e2001a); */
 	background-size: 400% 400%;
-    animation: navGradient  15s ease infinite;
+    animation: navGradient  5s ease infinite alternate-reverse;
 }
 .navGradientRainbow{
     background: linear-gradient(45deg, #ff7e27, #d8007e, #00ce7f, #e03400, #0400ff);
@@ -315,7 +322,7 @@ body{
     margin-top: 10px;
     background-color: transparent;
     width: 250px;
-    height: 32px;
+    height: 40px;
     perspective: 1000px;
 }  
 .flip-card-inner {
@@ -338,7 +345,8 @@ body{
     backface-visibility: hidden;
 }
 .flip-card-front {
-    background: linear-gradient(90deg, rgb(206, 0, 24,.8),rgb(250, 235, 215,.5),rgb(206, 0, 24,.8)),
+    animation: border-color 0.5s linear infinite;
+    background: linear-gradient(90deg, rgba(255, 0, 30, 0.8),rgb(250, 235, 215,0),rgba(255, 0, 30, 0.8)),
                 url(assets/wtf/electric.gif);
     background-position: center;
     background-size: cover;
