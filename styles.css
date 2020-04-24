@@ -25,10 +25,10 @@
     100% { color: #ce0018; text-shadow: 1px 1px 2px white;}
 }
 @keyframes text-color2 {
-    0% { color: #ce0018; }
-    33% { color: #8b0000;}
-    66% { color: #850612;}
-    100% { color: #ce0018;}
+    0% { color: #00ffe1; text-decoration: underline overline double #ce0018;}
+    33% { color: #ce0018; text-decoration: underline overline double #00ffe1;}
+    66% { color: #00ffe1; text-decoration: underline overline double #ce0018;}
+    100% { color: #ce0018; text-decoration: underline overline double #00ffe1;};
 }
 /* ----- GEN ----- */
 body{
@@ -55,14 +55,14 @@ body{
     animation: text-color 1s linear infinite;
     font-size: 2em;
 }
-.navbar a:hover{;}
-
+#navbarDropdown:hover{
+    animation: text-color2 0.5s alternate-reverse infinite;
+}
 .dropdown-menu{
     background: linear-gradient(45deg, #ce0018, #850612, #ce0018, #850612, #ce0018);
 	background-size: 400% 400%;
     animation: navGradient  15s ease infinite;
     color: antiquewhite;
-
 }
 .dropdown-divider{border-color: khaki;}
 .dropdown-item{
