@@ -1,9 +1,10 @@
 //QUERY STYLE
 $(document).ready(function(){
+
     //buttons
         $("#dark").click(function(){ 
             x = Math.floor(Math.random()*6);
-            rndColor=['#641700', '#6d002a', '#004d69', '#00624b', '#000061', 'black'];
+            rndColor=['navy', '#800000', 'darkred', '#051428', '#850612', 'black'];
             $('body').css("background", rndColor[x]);
 
             $('.noflier').removeClass('flier');
@@ -16,7 +17,7 @@ $(document).ready(function(){
 
         $("#light").click(function(){ 
             x = Math.floor(Math.random()*6);
-            rndColor=['#ff7348', '#ff71a8', '#93e2ff', '#9affe7', '#a7a7ff', 'white'];
+            rndColor=['#dda0dd', '#87d3f8', 'khaki', '#fee347', 'antiquewhite', 'white'];
             $('body').css("background", rndColor[x]);
             
             $('.noflier').removeClass('flier');
