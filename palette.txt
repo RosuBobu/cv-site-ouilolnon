@@ -8,3 +8,7 @@ portal red #ab0505
 
 font-family: 'Carter One', cursive;
 font-family: 'Allan', cursive;
+
+font-family: 'Bangers', cursive;
+font-family: 'Anton', sans-serif;
+font-family: 'Righteous', cursive;

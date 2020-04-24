@@ -1,22 +1,20 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="utf8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf8" name="viewport" content="width=device-width, initial-scale=1">
     <title>WELCOME</title>
     <link rel="stylesheet" type="text/css" href="styles.css">
-    <script src="jquery.min.js"></script>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-    <link href="https://fonts.googleapis.com/css?family=Allan|Carter+One&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Baloo+Paaji+2:500&display=swap" rel="stylesheet">
-    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Carter+One|Baloo+Paaji+2:500|Righteous&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="https://csshake.surge.sh/csshake.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="jquery.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 </head>
 <body>
     <header>
         <nav class="navbar navbar-expand-lg">
-            <a class="navbar-brand" href="#">BIENVENUE SUR LE SITE DE <span id="myself">THIBAULT MARIE :)</span></a>
+            <h1 class="navbar-brand" href="#">BIENVENUE SUR LA PAGE PERSO DE <span id="myself">THIBAULT MARIE</span></h1>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto">
                 <li class="nav-item dropdown">
@@ -26,12 +24,26 @@
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                     <a class="dropdown-item preview-item shake" href="./assets/CV-Thibault-Marie.pdf" download>MON CV</a>
                     <!-- if download not working => target=blank -->
-                    <a class="dropdown-item" href="#" id="electric">⚡Placard Électrique !⚡</a>
+                    <div class="flip-card">
+                        <div class="flip-card-inner">
+                            <div class="flip-card-front"></div>
+                            <div class="flip-card-back">
+                                <a class="dropdown-item" href="#" id="electric">⚡Placard Électrique !⚡</a>
+                            </div>
+                        </div>
+                    </div>
                     <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" id="disclaimer" href="#">DISCLAIMER<span>Ce site a été conçu la nuit<br>alors il faut pas trop m'en vouloir...<br>s'il vous plaît<hr>En cas de problème, rafraichissez la page ^^<hr>Les boutons du placard électriques<br>sont clickables plusieurs fois<hr>la mascotte Gogopher m'a volé mon cv<br>vous pouvez lui reprendre..<hr>Je vous remercie d'avoir pris le temps<br>de prendre part a cette expérience :)</span></a>
+                        <a class="dropdown-item" id="disclaimer" href="#">
+                            DISCLAIMER<span>Ce site a été conçu la nuit<br>alors il faut pas trop m'en vouloir...<br>
+                            s'il vous plaît<hr>En cas de problème, rafraichissez la page ^^<hr>
+                            Les boutons du placard électriques<br>sont clickables plusieurs fois<hr>
+                            La mascotte Gogopher m'a volé mon cv<br>vous pouvez lui reprendre..<hr>
+                            Je vous remercie d'avoir pris le temps<br>de prendre part a cette expérience :)</span>
+                        </a>
                     </div>
                 </li>
             </div>
+            <h1 class="navbar-brand" href="#">Bonne visite :)</h1>
         </nav>
     </header>
 
@@ -75,7 +87,7 @@
             </div>
             <div class="left-tab">
                 <img src="assets/logos/php.gif" alt="PHP" title="PHP">
-                <div class="left-tab-bar"> <a href="https://www.php.net/" target="blank"><p>Quelle joie de dev un MVC :)</p></a><h5>PHP</h5></div>
+                <div class="left-tab-bar"> <a href="https://www.php.net/" target="blank"><p>J'aime faire du MVC :)</p></a><h5>PHP</h5></div>
             </div>
         </div>
     </aside>
@@ -93,11 +105,11 @@
             </div>
         </div>
         <div class="accordionItem close">
-            <h2 class="accordionItemHeading">ok et tout ça là ? Mékècecé<p class="youpla">?</p></h2>
+            <h2 class="accordionItemHeading">Et tout ça là, qu'est-ce donc ?<p class="youpla">?</p></h2>
             <div class="accordionItemContent">
                 <p>Pour tenter une approche un peu originale, en ces temps compliqués du monde du dehors..<br>
                 Nous avons décidé de faire des petites pages web de présentation.<br>
-                Et du coup là, ben vous êtes chez moi :)</p>
+                Et là vous êtes chez moi :)</p>
                 <p>Alors, j'avoue.. J'en ai un peu profité pour m'amuser ^^'<br>Mais pour ma défense :</p>
                 <ol>
                     <li>Mon cv est téléchargeable en pdf sur ce site</li>
@@ -122,7 +134,7 @@
                 <p>Mon truc c'est de m'éclater et d'apprendre :)<br>
                 J'aimerai beaucoup profiter de ce stage pour grandir en compétences !<br>
                 Vite me hurter à mes limites, <br>
-                que je puisse les repousser et devenir toujours plus <span class="shake shake-constant">BALÈZE !</span>
+                que je puisse les repousser et devenir toujours plus <span class="shake shake-constant" id="baleze">BALÈZE !</span>
                 Plus tard j'aimerai maîtriser d'autres technologies..<br>
                 (bon j'avoue, j'ai déjà un peu commencé)<br>
                 par exemple : 
@@ -145,12 +157,16 @@
     <h6 class="dragme">✱drag me | déplacez moi :)</h6>
     <button class="btn btn-dark" id="dark">DARK VERSION</button>
     <button class="btn btn-light" id="light">LIGHT VERSION</button>
-    <button class="btn btn-warning" id="wtf">WTF VERSION ☠<span>Peut piquer les yeux !<br>Épileptique s'abstenir !</span></button>
+    <button class="btn btn-warning" id="wtf">WTF VERSION ☠<span>Peut piquer les yeux !<br>Épileptiques s'abstenir !</span></button>
 </div>
 
 <div class="noflier">
     <a href="./assets/CV-Thibault-Marie.pdf" download><img class="preview-item shake-little" id="gogopher"src="assets/logos/go.png" ></a></div>
     <!-- if download not working => target=blank -->
+
+
+
+
     <script src="script.js"></script>
 </body>
 </html>

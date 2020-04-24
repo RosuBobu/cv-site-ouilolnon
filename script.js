@@ -42,6 +42,7 @@ $(document).ready(function(){
             $("#placarelectrik").addClass('shake shake-constant');
 
             $(".left-tab-bar > h5").css('color', 'khaki');
+            
         });
 
         $('#electric').click(function(){
