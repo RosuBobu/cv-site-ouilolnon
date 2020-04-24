@@ -78,8 +78,6 @@ $(document).ready(function(){
                 $('.left-tab-bar').toggleClass('navGradientRainbow');
                 $('.accordionWrapper').toggleClass('navGradientRainbow');
             };
-
-            
         });
 
         $('#electric').click(function(){
@@ -96,7 +94,6 @@ $(document).ready(function(){
 
     //ACCORDION !!
     $('.accordionItem.close').click(function(){
-
         if($('.accordionItem').not(this).hasClass('open')){
             $('.accordionItem').addClass('close');
             $('.accordionItem').removeClass('open');
@@ -119,9 +116,5 @@ $(document).ready(function(){
     $( function(){
         $(".draggable").draggable();
     });
-
-    
-
-
 
 });

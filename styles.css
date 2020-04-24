@@ -65,9 +65,25 @@ body{
     font-family: 'Righteous', cursive;
     box-shadow: 0px 3px 3px #79000c;
 }
-
-
-
+.separator-tiny{
+    width: 10%;
+    margin: auto;
+    border-top: 1px solid #ce0018;
+    border-bottom: 1px solid #ce0018;
+}
+p, ol, ul, li{
+    margin-bottom: 0;
+}
+ol{
+    text-align: left;
+    display: inline-block;
+}
+ol li{
+    margin: 0;
+    height: 20px;
+    list-style:none;
+}
+ol li::before {content: "■  "; color:#ce0018}
 .navbar-brand{
     cursor: default; 
     color: antiquewhite;
@@ -106,8 +122,7 @@ body{
     color: khaki;
     font-family: 'Carter One', cursive;
     font-size: 0.8em; 
-    text-align: right;
-    margin: 5px;
+    text-align: right;    
 }
 #myself{
     text-decoration: underline 3px;
@@ -251,7 +266,7 @@ body{
     color: antiquewhite;
     pointer-events: all !important;
 }
-#baleze{font-size: 1.5em;}
+#baleze{font-size: 1.5em; color: #ce0018;}
 #dreams img{max-height: 75px; pointer-events: all !important;}
 #dreams img:hover{filter: drop-shadow(0px 0px 3px #ce0018);}
 /* ----- PLACARELECTRIK ----- */
