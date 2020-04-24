@@ -36,7 +36,8 @@
     66% { border: 1px solid #00ffe1;}
     100% { border: 3px solid #ff001e;};
 }
-/* ----- GEN ----- */
+
+/* ----- JQUERY CLASSES ----- */
 
 .navGradientRed{
     background: linear-gradient(45deg,#e2001a,#ce0018, #850612, #770511);
@@ -49,6 +50,10 @@
 	background-size: 400% 400%;
     animation: navGradient  5s ease infinite;
 }
+.position-absolute{position: absolute;}
+.position-static{position: static;}
+
+/* ----- GEN ----- */
 
 body{
     background: linear-gradient(45deg, antiquewhite, rgb(255, 184, 90));
@@ -124,10 +129,10 @@ ol li::before {content: "■  "; color:#ce0018}
     font-size: 0.8em; 
     text-align: right;    
 }
-#myself{
-    text-decoration: underline 3px;
+#myself{ text-decoration: underline 3px;
 }
 /* ----- LEFT PANEL ----- */
+
 .left-panel{
     position: fixed;
     z-index: 999;
@@ -164,9 +169,6 @@ ol li::before {content: "■  "; color:#ce0018}
     right: 0;
     top: 0;
     transition: background-color ease 0.2s;
-    /* background: linear-gradient(45deg, #ce0018, #850612, #ce0018, #850612, #ce0018);
-	background-size: 400% 400%;
-    animation: navGradient  15s ease infinite; */
 }
 .left-tab-bar p{
     right: calc(100% + 5px); 
@@ -196,12 +198,12 @@ ol li::before {content: "■  "; color:#ce0018}
     color: rgb(255, 145, 0);
 }
 /* ----- DRAGGABLE ----- */
+
 .draggable{cursor: move;}
+
 /* ----- ACCORDEON CUSTOM ----- */
+
 .accordionWrapper {
-    /* background: linear-gradient(45deg, #ce0018, #850612, #ce0018, #850612, #ce0018);
-	background-size: 400% 400%;
-    animation: navGradient alternate 15s ease infinite; */
     padding: 30px;
     float: left;
     width: 60%;
@@ -269,7 +271,9 @@ ol li::before {content: "■  "; color:#ce0018}
 #baleze{font-size: 1.5em; color: #ce0018;}
 #dreams img{max-height: 75px; pointer-events: all !important;}
 #dreams img:hover{filter: drop-shadow(0px 0px 3px #ce0018);}
+
 /* ----- PLACARELECTRIK ----- */
+
 #placarelectrik{
     z-index: 1000;
     pointer-events: none;
@@ -279,7 +283,6 @@ ol li::before {content: "■  "; color:#ce0018}
     padding: 2px;
     margin: 75px;
     width: 250px;
-    /* height: 250px; */
     background-color: rgba(133, 6, 19, 0.65);
     border-radius: 5px;
     border: 2px solid rgb(255, 145, 0);
@@ -295,7 +298,9 @@ ol li::before {content: "■  "; color:#ce0018}
     background-position: top;
     background-size: cover;
 }
+
 /* ----- TOOLTIP ----- */
+
 #wtf span, #disclaimer span{	
 	display:none;
 	color:#fff;
@@ -309,16 +314,17 @@ ol li::before {content: "■  "; color:#ce0018}
     cursor: default;
 }
 #wtf, #disclaimer{display: inline-block;}
+#wtf:hover span , #disclaimer:hover span{display:block;}
 
-#wtf:hover span , #disclaimer:hover span{  
-	display:block; 
-}
 /* ----- FLYER !!! ----- */
+
 #gogopher{
     height: 400px;
     max-width:400px ;
     display: block;
+    bottom: 0;
 }
+
 .noflier{
     margin: 50px;
     display: inline-block;
@@ -332,7 +338,9 @@ ol li::before {content: "■  "; color:#ce0018}
 	animation-delay: 1s;
 	z-index: 999999;
 }
+
 /* ----- FLIP CARD !!! ----- */
+
 .flip-card {
     margin-top: 10px;
     background-color: transparent;
@@ -345,7 +353,6 @@ ol li::before {content: "■  "; color:#ce0018}
     width: 100%;
     height: 100%;
     padding: 0;
-    /* text-align: center; */
     transition: transform ease 0.4s;
     transform-style: preserve-3d;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 -4px 8px 0 rgba(0,0,0,0.2);
