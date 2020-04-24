@@ -1,6 +1,11 @@
 //QUERY STYLE
 $(document).ready(function(){
 
+    //DEFAULT COLOR ON LOAD
+    $('.navbar').toggleClass('navGradientRed');
+    $('.left-tab-bar').toggleClass('navGradientRed');
+    $('.accordionWrapper').toggleClass('navGradientRed');
+    
     //buttons
         $("#dark").click(function(){ 
             x = Math.floor(Math.random()*6);
@@ -13,6 +18,16 @@ $(document).ready(function(){
             $("#placarelectrik").removeClass('shake shake-constant');
 
             $(".left-tab-bar > h5").css('color', 'khaki');
+            
+            //colorsLOL
+            if($('.navbar').hasClass('navGradientRainbow')){
+                $('.navbar').toggleClass('navGradientRed');
+                $('.left-tab-bar').toggleClass('navGradientRed');
+                $('.accordionWrapper').toggleClass('navGradientRed');
+                $('.navbar').toggleClass('navGradientRainbow');
+                $('.left-tab-bar').toggleClass('navGradientRainbow');
+                $('.accordionWrapper').toggleClass('navGradientRainbow');
+            };
         });
 
         $("#light").click(function(){ 
@@ -27,6 +42,16 @@ $(document).ready(function(){
             $("#placarelectrik").css('border', '2px solid goldenrod');
 
             $(".left-tab-bar > h5").css('color', '#860010');
+
+            //colorsLOL
+            if($('.navbar').hasClass('navGradientRainbow')){
+                $('.navbar').toggleClass('navGradientRed');
+                $('.left-tab-bar').toggleClass('navGradientRed');
+                $('.accordionWrapper').toggleClass('navGradientRed');
+                $('.navbar').toggleClass('navGradientRainbow');
+                $('.left-tab-bar').toggleClass('navGradientRainbow');
+                $('.accordionWrapper').toggleClass('navGradientRainbow');
+            };
         });
 
         $("#wtf").click(function(){ 
@@ -43,6 +68,17 @@ $(document).ready(function(){
             $("#placarelectrik").addClass('shake shake-constant');
 
             $(".left-tab-bar > h5").css('color', 'khaki');
+                
+            //colorsLOL
+            if($('.navbar').hasClass('navGradientRed')){
+                $('.navbar').toggleClass('navGradientRed');
+                $('.left-tab-bar').toggleClass('navGradientRed');
+                $('.accordionWrapper').toggleClass('navGradientRed');
+                $('.navbar').toggleClass('navGradientRainbow');
+                $('.left-tab-bar').toggleClass('navGradientRainbow');
+                $('.accordionWrapper').toggleClass('navGradientRainbow');
+            };
+
             
         });
 
@@ -83,5 +119,9 @@ $(document).ready(function(){
     $( function(){
         $(".draggable").draggable();
     });
+
+    
+
+
 
 });
