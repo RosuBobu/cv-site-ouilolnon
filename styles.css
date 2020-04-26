@@ -134,8 +134,7 @@ ol li::before {content: "■  "; color:#ce0018}
     font-size: 0.8em; 
     text-align: right;    
 }
-#myself{ text-decoration: underline 3px;
-}
+#myself{ text-decoration: underline 3px; text-shadow: 3px 3px 2px red;}
 /* ----- LEFT PANEL ----- */
 
 .left-panel{
