@@ -103,6 +103,15 @@ $(document).ready(function(){
             };
         });
 
+        //RANDOM RGB FUNCTION !!!
+        // $('.rgb').click(function(){
+        //     r = Math.round(Math.random()*255);
+        //     g = Math.round(Math.random()*255);
+        //     b = Math.round(Math.random()*255);
+        //     console.log('RGB => '+r+' , '+g+' , '+b);
+        //     $('body').css('background', 'rgb('+r+','+g+','+b+')');
+        // });
+
     //left-tabs----------------------------------------------
     step = 0;
     $('.left-tab').each(function(){
