@@ -216,9 +216,9 @@ ol li::before {content: "■  "; color:#ce0018}
 .accordionWrapper {
     padding: 30px;
     float: left;
-    width: 60%;
+    width: 75%;
     box-sizing: border-box;
-    margin: 10vh;
+    margin: 8vh;
     box-shadow: 3px 3px 3px 3px #850612;
     position: absolute;
     border-radius: 3px;
@@ -443,10 +443,11 @@ ol li::before {content: "■  "; color:#ce0018}
 
     height: 150px;
     /* width: 100%; */
+    width: 75%;
 
-    position: absolute;
-    top: calc(25vh - 50%);
-    bottom:calc(25vw - 50%);
+    margin-top: 20vh !important;
+    margin: auto;
+
 }
 
 .contact{
