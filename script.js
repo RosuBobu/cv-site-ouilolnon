@@ -1,7 +1,7 @@
 //QUERY STYLE
 $(document).ready(function(){
 
-    $('.rgb').hide();
+    
 
 
     //GOGOPHER POSITION----------------------------------------------
@@ -14,6 +14,7 @@ $(document).ready(function(){
     $('.accordionWrapper').toggleClass('navGradientRed');
     
     //buttons----------------------------------------------
+        $('.rgb').hide();
         //DARK
         $("#dark").click(function(){ 
             x = Math.floor(Math.random()*6);
@@ -148,6 +149,12 @@ $(document).ready(function(){
     //DRAGGABLE----------------------------------------------
     $( function(){
         $(".draggable").draggable();
+    });
+
+    //FLIP MAIN------------------------------------------------------
+    $('.flip').click(function(){
+        $('#main-card').toggleClass('active');
+        $('.flip-card-front-main').toggle();
     });
 
 });
