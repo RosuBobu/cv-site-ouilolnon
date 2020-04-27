@@ -1,6 +1,9 @@
 //QUERY STYLE
 $(document).ready(function(){
 
+    $('.rgb').hide();
+
+
     //GOGOPHER POSITION----------------------------------------------
 
     $('#gogopher').toggleClass('position-absolute');
@@ -86,6 +89,9 @@ $(document).ready(function(){
             $("#placarelectrik").addClass('shake shake-constant');
 
             $(".left-tab-bar > h5").css('color', 'khaki');
+
+            // /test
+            $('.rgb').show();
                 
             //colorsLOL
             if($('.navbar').hasClass('navGradientRed')){
@@ -103,14 +109,14 @@ $(document).ready(function(){
             };
         });
 
-        //RANDOM RGB FUNCTION !!!
-        // $('.rgb').click(function(){
-        //     r = Math.round(Math.random()*255);
-        //     g = Math.round(Math.random()*255);
-        //     b = Math.round(Math.random()*255);
-        //     console.log('RGB => '+r+' , '+g+' , '+b);
-        //     $('body').css('background', 'rgb('+r+','+g+','+b+')');
-        // });
+        // RANDOM RGB FUNCTION !!!
+        $('.rgb').click(function(){
+            r = Math.round(Math.random()*255);
+            g = Math.round(Math.random()*255);
+            b = Math.round(Math.random()*255);
+            console.log('RGB => '+r+' , '+g+' , '+b);
+            $('body').css('background', 'rgb('+r+','+g+','+b+')');
+        });
 
     //left-tabs----------------------------------------------
     step = 0;
