@@ -435,7 +435,8 @@ ol li::before {content: "■  "; color:#ce0018}
 .flip-card-back-main {transform: rotateY(180deg);}
 
 .flip-card-back-main-content{
-    background: rgb(255, 145, 0, 0.2);
+    background: linear-gradient(-45deg, antiquewhite, rgb(255, 221, 175));
+    
     padding: 10px;
 
     border-radius: 2px;

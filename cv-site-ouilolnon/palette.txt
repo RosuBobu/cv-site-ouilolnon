@@ -1,0 +1,36 @@
+blood       --- #67080b
+old citadel --- #ce0018
+orange fire --- #ff7b00
+
+portal orange #fd6600
+portal blue #0078ff
+portal red #ab0505
+
+font-family: 'Carter One', cursive;
+font-family: 'Allan', cursive;
+
+font-family: 'Bangers', cursive;
+font-family: 'Anton', sans-serif;
+font-family: 'Righteous', cursive;
+
+
+
+supergreen #05f140 
+richdark #0c0e28
+
+unsplash credits
+    Photo by Kyle Sung on Unsplash
+    Photo by Nathan Anderson on Unsplash
+    Photo by Olivier Collet on Unsplash
+    Photo by Fab Lentz on Unsplash
+    Photo by Yuri Bodrikhin on Unsplash
+    Photo by Patrick Tomasso on Unsplash
+    Photo by Damir Kopezhanov on Unsplash
+    Photo by Markus Spiske on Unsplash
+    Photo by Blake Connally on Unsplash
+    Photo by NeONBRAND on Unsplash
+    Photo by Alexander Gilbertson on Unsplash
+    Photo by Mike Kenneally on Unsplash
+    Photo by Yanapi Senaud on Unsplash
+    Photo by Nathan Dumlao on Unsplash
+    Photo by OC Gonzalez on Unsplash
